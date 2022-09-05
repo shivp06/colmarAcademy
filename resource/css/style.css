@@ -2,4 +2,12 @@
     margin-right: 24px;
     margin-left: 24px;
     height: 64px;
+    border-bottom: grey 1px solid;
+    color: grey;
+    font-size: 25px;
+}
+
+.black {
+    color: black;
+    font-size: 25px;
 }
