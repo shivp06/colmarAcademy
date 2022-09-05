@@ -11,3 +11,22 @@
     color: black;
     font-size: 25px;
 }
+
+.logobox {
+    float: left;
+}
+
+.navList {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+}
+
+.navItem {
+    margin-right: 16px;
+}
+
+.navLink {
+    color: grey;
+    text-decoration: none;
+}
