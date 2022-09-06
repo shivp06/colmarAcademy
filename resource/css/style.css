@@ -2,9 +2,12 @@
     margin-right: 24px;
     margin-left: 24px;
     height: 64px;
-    border-bottom: grey 1px solid;
+    /* border-bottom: grey 1px solid; */
     color: grey;
     font-size: 25px;
+    /* test-code */
+    display: flex;
+    align-items: center;
 }
 
 .black {
@@ -13,13 +16,14 @@
 }
 
 .logobox {
-    float: left;
+    /* float: left; */
+    display: inline-flex;
 }
 
 .navList {
     list-style: none;
     display: inline-flex;
-    float: right;
+    /* float: right; */
 }
 
 .navItem {
@@ -29,4 +33,36 @@
 .navLink {
     color: grey;
     text-decoration: none;
+}
+
+.banner {
+    background-color: lightgrey;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.bannerImg {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.bannerText {
+    text-align: center;
+    margin-left: 48px;
+}
+
+.bannerTitle {
+    font-weight: bold;
+}
+
+.bannerBtn {
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 8px 0;
+    width: 100%;
 }
